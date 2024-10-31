@@ -1,0 +1,3 @@
+.wpex-sticky-header-holder.is-sticky #site-header { transform: translateY(-120%) !important; /* more than 100% for shadow */ }
+.wpex-sticky-header-holder.is-sticky.sushft-hidden #site-header { transition: transform .3s ease-in-out; }
+.wpex-sticky-header-holder.is-sticky.sushft-show #site-header { transition: transform .3s ease-in-out; transform: translateY(0) !important; }
